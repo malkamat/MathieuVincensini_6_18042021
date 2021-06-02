@@ -5,11 +5,6 @@ const bcrypt = require("bcrypt")
 // signup fonction
 exports.signup = async (req, res) => {
 
-    //check si l'email est déja inscrit dans la db
-    const emailExist = await User.findOne({
-        email: req.body.email
-    })
-    if (emailExist) return res.status(400).send("email déjà utilisé")
 
     //hash password
     const salt = await bcrypt.genSalt(10)

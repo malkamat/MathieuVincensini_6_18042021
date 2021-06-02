@@ -9,11 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
     "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
@@ -21,7 +18,6 @@
     "mongoose-field-encryption": "4.0.1",
     "mongoose-unique-validator": "^2.0.3",
     "multer": "^1.4.2",
-    "nodemon": "^2.0.7",
-    "uuid": "^8.3.2"
+    "nodemon": "^2.0.7"
   }
 }
